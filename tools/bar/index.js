@@ -1,1 +1,1 @@
-require('foo') // should be 'foo'
+require('foo') // should prints 'foo'
