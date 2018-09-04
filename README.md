@@ -26,6 +26,24 @@ After step 2, `pnpm` installs an actual [`foo` package](https://www.npmjs.com/pa
   * Directory [`/tools`] contains packages that are used as tools in dev environment (e.g. to assist testing, or to validate packages before publishing, etc.) and therefore have `"private": true` in their `package.json`.
 
   * Package `/tools/bar` depends on `foo` (`/tools/foo`).
+
+
+**Folder structure:**
+
+```
+  .
+  ├── index.js
+  ├── pnpm-workspace.yaml
+  ├── README.md
+  └── tools
+      ├── bar
+      │   ├── index.js
+      │   └── package.json
+      └── foo
+          ├── index.js
+          └── package.json
+
+```
 </details>
 
 <details>
