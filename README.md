@@ -39,5 +39,5 @@ After step 2, `pnpm` installs an actual [`foo` package](https://www.npmjs.com/pa
 <details>
   <summary>Why don't I just rename to package or increase version to really high?</summary>
 
-  It doesn't work in a long term.
+  * It doesn't work in a long term.
 </details>
