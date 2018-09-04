@@ -1,1 +1,1 @@
-console.log(require('foo')) // should be 'foo'
+require('foo') // should be 'foo'
