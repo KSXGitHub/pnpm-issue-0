@@ -1,4 +1,4 @@
-# PNPM should prioritize to link local (private) packages in repo instead of installing external packages
+# PNPM should prioritize linking local (private) packages in repo instead of installing external packages
 
 ## Steps to reproduce
 
